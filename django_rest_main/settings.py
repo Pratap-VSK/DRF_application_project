@@ -130,3 +130,8 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+REST_FRAMEWORK = {
+    'DEFAULT_PEGINATION_CLASS': 'rest_framework.pagination.LimitoffsetPagination',
+    'PAGE_SIZE':5
+}
