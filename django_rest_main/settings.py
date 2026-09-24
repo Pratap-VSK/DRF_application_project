@@ -131,7 +131,12 @@ MAILERS = {
     },
 }
 
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
 REST_FRAMEWORK = {
     'DEFAULT_PEGINATION_CLASS': 'rest_framework.pagination.LimitoffsetPagination',
-    'PAGE_SIZE':5
+    'PAGE_SIZE':5,
 }
+
+
