@@ -1,1 +1,1 @@
-DRF PROJECT UNDER PROCCESS.
+DRF PROJECT essentials inbuilt. 
